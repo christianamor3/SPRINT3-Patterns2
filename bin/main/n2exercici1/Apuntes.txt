@@ -1,0 +1,15 @@
+Debemos crear un interfaz "callback" con el metodo de pago.
+
+Despues creamos clases concretas que implementen esa interfaz y sobreescriban el metodo de pago, a su manera.
+
+Despues creamos la clase del "caller", que tiene un metodo que recibe por parametro
+un objeto del tipo interfaz "callback". Dentro del metodo, a traves del objeto interfaz,
+accedemos a su metodo.
+
+A traves de crear un objeto de la clase caller, accederemos a su metodo, le pasaremos por parametro
+un objeto del tipo interfaz, e internamente, ese metodo, cogerá el objeto de tipo interfaz y accederá 
+al metodo de la interfaz.
+
+
+
+

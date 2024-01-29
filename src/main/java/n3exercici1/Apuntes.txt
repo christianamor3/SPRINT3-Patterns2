@@ -1,0 +1,12 @@
+El ejercicio nos pide que la clase que se encarga 
+de listar los articulos con los diferentes precios,
+debe depender de la clase convertidor de moneda.
+
+Es decir, para poder crear un objecto de la clase PricesList 
+y poder acceder al metodo que imprime, debemos crear 
+antes la clase Convertidor de Moneda 
+y pasarsela como parametro.
+
+Por lo tanto, hacemos que la clase PricesList dependa
+de la clase Convertidor de Moneda para poder existir,
+y poder ejecutar el metodo que imprime.
